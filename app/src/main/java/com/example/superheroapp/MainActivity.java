@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void enter(View view) {
-        Intent intent =new Intent(getApplicationContext(), dashboard.class);
+        Intent intent =new Intent(getApplicationContext(), id_dashboard.class);
         startActivity(intent);
     }
 }
